@@ -1,0 +1,146 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #ddd;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.breadcrumb {
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.breadcrumb a {
+    color: #333;
+    text-decoration: none;
+}
+
+.payment-section {
+    display: flex;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.payment-method,
+.order-summary {
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+
+.payment-method h2,
+.order-summary h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.payment-method ul {
+    list-style: none;
+}
+
+.payment-method li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.payment-method .remove {
+    color: red;
+    text-decoration: none;
+}
+
+.add-payment {
+    color: #333;
+    text-decoration: none;
+}
+
+.order-summary .summary-item,
+.order-summary .total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.delivery-date {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.order-summary input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pay-button {
+    width: 100%;
+    padding: 15px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-section {
+    width: 20%;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.instagram-images img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}

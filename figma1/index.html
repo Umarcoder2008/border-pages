@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h2>Marsha Mount Up</h2>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Shop</a>
+            <a href="#">Cart</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="breadcrumb">
+            <a href="#">Address</a> > <a href="#">Shipping</a> > <strong>Payment</strong>
+        </div>
+
+        <section class="payment-section">
+            <div class="payment-method">
+                <h2>Payment Method</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="payment" checked>
+                        <span>**** 6754</span>
+                        <span>Expires 08/2021</span>
+                        <a href="#" class="remove">Remove</a>
+                    </li>
+                    <li>
+                        <input type="radio" name="payment">
+                        <span>**** 5643</span>
+                        <span>Expires 11/2025</span>
+                        <a href="#" class="remove">Remove</a>
+                    </li>
+                </ul>
+                <a href="#" class="add-payment">+ Add Payment method</a>
+            </div>
+
+            <!-- Order Summary -->
+            <div class="order-summary">
+                <h2>Order Summary</h2>
+                <div class="summary-item"><span>Price</span><span>$318.98</span></div>
+                <div class="summary-item"><span>Discount</span><span>-$31.99</span></div>
+                <div class="summary-item"><span>Shipping</span><span>Free</span></div>
+                <div class="summary-item"><span>Coupon Applied</span><span>$0.00</span></div>
+                <div class="total"><span>Total</span><span>$288.08</span></div>
+                <div class="delivery-date">Estimated Delivery by <strong>01 Feb, 2023</strong></div>
+                <input type="text" placeholder="Coupon Code">
+                <button class="pay-button">Place Your    Order and Pay</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-section">
+            <div class="brand-logo">Marsha Mount Up</div>
+            <p>1234 Street Name, City, Country</p>
+            <p>Email: info@marshamountup.com</p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+        <div class="footer-section">
+            <h3>Useful Links</h3>
+            <p><a href="#">FAQ</a></p>
+            <p><a href="#">Privacy Policy</a></p>
+            <p><a href="#">Contact Us</a></p>
+        </div>
+        <div class="footer-section">
+            <h3>Latest Post</h3>
+            <p>Post 1</p>
+            <p>Post 2</p>
+            <p>Post 3</p>
+        </div>
+        <div class="footer-section">
+            <h3>Instagram</h3>
+            <div class="instagram-images">
+                <!-- Placeholders for Instagram Images -->
+                <img src="img dal dena" alt="Image 1">
+                <img src="img dal dena" alt="Image 2">
+                <img src="img dal dena" alt="Image 3">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
